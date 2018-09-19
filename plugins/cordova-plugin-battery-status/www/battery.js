@@ -27,7 +27,7 @@ var cordova = require('cordova');
 var exec = require('cordova/exec');
 
 var STATUS_CRITICAL = 5;
-var STATUS_LOW = 20;
+var STATUS_LOW = 60;
 
 var Battery = function () {
     this._level = null;
