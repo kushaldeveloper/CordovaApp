@@ -1,13 +1,10 @@
 document.addEventListener("deviceready",onDeviceReady,false);
-//window.addEventListener("batterystatus", onBatteryStatus, false);
-//window.addEventListener("batterylow", onBatteryLow, false);
-//window.addEventListener("batterycritical", onBatteryCritical, false);
 	function onDeviceReady(){
 		alert("device is starting");
 		
 	window.addEventListener("batterystatus", onBatteryStatus, false);	
 	function onBatteryStatus(status) {
-		alert("%Level:" + status.level + " isPlugged: " + status.isPlugged);
+		alert("Level:" + status.level+"%"+ " isPlugged: " + status.isPlugged);
     }
     window.addEventListener("batterylow", onBatteryLow, false);	
     function onBatteryLow(status) {
