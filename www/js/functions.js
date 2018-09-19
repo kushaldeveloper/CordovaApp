@@ -3,8 +3,8 @@ document.addEventListener("deviceready",onDeviceReady,false);
 		alert("device is starting");
 		
 		document.getElementById("createContact").addEventListener("click", createContact);
-		document.getElementById("findContact").addEventListener("click", findContact);
-		document.getElementById("deleteContact").addEventListener("click", deleteContact);
+		//~ document.getElementById("findContact").addEventListener("click", findContact);
+		//~ document.getElementById("deleteContact").addEventListener("click", deleteContact);
 		
 	/*window.addEventListener("batterystatus", onBatteryStatus, false);	
 	function onBatteryStatus(status) {
@@ -20,7 +20,10 @@ document.addEventListener("deviceready",onDeviceReady,false);
 	}*/
 	
 	
-		function createContact() {
+		
+		
+}
+function createContact() {
 			var myContact = navigator.contacts.create({"displayName": "Unknown"});
 			myContact.save(contactSuccess, contactError);
     
@@ -33,5 +36,3 @@ document.addEventListener("deviceready",onDeviceReady,false);
 		}
 	
 	}	
-		
-}
