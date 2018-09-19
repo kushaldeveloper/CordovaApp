@@ -1,19 +1,19 @@
 {
-  "_from": "cordova-plugin-battery-status",
+  "_from": "cordova-plugin-battery-status@^2.0.2",
   "_id": "cordova-plugin-battery-status@2.0.2",
   "_inBundle": false,
   "_integrity": "sha1-OqGR97y2/Hz8nd/t9h5rSgWy31U=",
   "_location": "/cordova-plugin-battery-status",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-battery-status",
+    "raw": "cordova-plugin-battery-status@^2.0.2",
     "name": "cordova-plugin-battery-status",
     "escapedName": "cordova-plugin-battery-status",
-    "rawSpec": "",
+    "rawSpec": "^2.0.2",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^2.0.2"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-battery-status/-/cordova-plugin-battery-status-2.0.2.tgz",
   "_shasum": "3aa191f7bcb6fc7cfc9ddfedf61e6b4a05b2df55",
-  "_spec": "cordova-plugin-battery-status",
+  "_spec": "cordova-plugin-battery-status@^2.0.2",
   "_where": "C:\\Users\\asif\\Documents\\GitHub\\CordovaApp",
   "author": {
     "name": "Apache Software Foundation"
